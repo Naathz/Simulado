@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PesquisaActivity"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/tvInforme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Informe o número"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:layout_marginVertical="10dp"
+        />
+
+    <EditText
+        android:id="@+id/etDigitar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="DIGITE O QUE QUISER"
+        android:gravity="center"
+        android:layout_marginVertical="10dp"/>
+    
+    <Button
+        android:id="@+id/btPesquisar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pesquisar"
+        style="@style/Botao"
+        android:layout_marginVertical="10dp"/>
+
+</LinearLayout>
